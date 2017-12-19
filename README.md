@@ -55,3 +55,5 @@ rsort($fechas_array);
 <option value="<?php echo $per_year?>"<?=($per_year == $anio) ? ' selected' : ''; ?>><?php echo $per_year?></option>
 <?php } ?>
 ```
+
+Para el despliegue inverso de tiempos en dicha sección, decidí aprovechar el código y simplemente invertir el orden de los años.
